@@ -1,0 +1,21 @@
+.viewport {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  touch-action: manipulation;
+  user-select: none;
+}
+
+.artboard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+}
+
+/* Parked layers live above and below the frame, so clip vertically only. */
+.frame {
+  position: absolute;
+  inset: 0;
+  clip-path: inset(0 -200vw);
+}

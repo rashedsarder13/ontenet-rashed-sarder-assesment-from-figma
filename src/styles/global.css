@@ -1,0 +1,57 @@
+:root {
+  --color-lime: #e0e600;
+  --color-black: #000;
+  --color-white: #fff;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+svg,
+img {
+  display: block;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-white);
+  outline-offset: 4px;
+}
+
+/* Animated layers are positioned by GSAP transforms from the artboard origin. */
+[data-layer] {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

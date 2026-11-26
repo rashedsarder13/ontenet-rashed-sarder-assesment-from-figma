@@ -1,0 +1,15 @@
+.photo {
+  width: 884px;
+  height: 920px;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+/* Crop of the source image, as in the design. */
+.image {
+  position: absolute;
+  left: -25.163px;
+  top: 0;
+  width: 934.326px;
+  height: 920px;
+}

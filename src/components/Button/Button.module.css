@@ -1,0 +1,30 @@
+.button {
+  position: relative;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  color: var(--color-black);
+  cursor: pointer;
+}
+
+.label {
+  position: absolute;
+}
+
+.lime {
+  width: 153px;
+  background: var(--color-lime);
+}
+
+.white {
+  width: 153px;
+  background: var(--color-white);
+}
+
+.outline {
+  width: 159px;
+  border: 1px solid var(--color-white);
+  background: none;
+  color: var(--color-white);
+}

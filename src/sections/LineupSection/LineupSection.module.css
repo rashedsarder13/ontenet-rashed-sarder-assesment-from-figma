@@ -1,0 +1,15 @@
+.group,
+.caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+}
+
+.captionLine {
+  position: absolute;
+}
+
+.note {
+  opacity: 0.58;
+}

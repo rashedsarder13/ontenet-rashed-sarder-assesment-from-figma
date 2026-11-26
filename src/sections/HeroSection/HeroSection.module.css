@@ -1,0 +1,19 @@
+/* The copy outline is offset inside its layer, as in the design. */
+.copy {
+  position: relative;
+}
+
+.cta {
+  display: flex;
+  gap: 33px;
+}
+
+/* ---------- portrait adaptation ---------- */
+
+:global([data-variant='mobile']) .cta {
+  gap: 12px;
+}
+
+:global([data-variant='mobile']) .ctaButton {
+  width: 155px;
+}
